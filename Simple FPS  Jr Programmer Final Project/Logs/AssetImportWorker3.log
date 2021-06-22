@@ -208,3 +208,63 @@ System memory in use after: 88.5 MB.
 Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2314.
 Total: 10.555700 ms (FindLiveObjects: 3.748100 ms CreateObjectMapping: 0.792900 ms MarkObjects: 5.697400 ms  DeleteObjects: 0.312300 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.172945 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.096 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1783 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.5 MB.
+System memory in use after: 88.6 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2318.
+Total: 3.828000 ms (FindLiveObjects: 0.435300 ms CreateObjectMapping: 0.218100 ms MarkObjects: 3.001200 ms  DeleteObjects: 0.169500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1918.021026 seconds.
+  path: Assets/Starfield Skybox/Skybox.mat
+  artifactKey: Guid(81f714daf7144784b8a2f42f1cd30927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Starfield Skybox/Skybox.mat using Guid(81f714daf7144784b8a2f42f1cd30927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b435f25e36cc576533e4e8f439a638') in 5.273582 seconds
+  Import took 5.331271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.500993 seconds.
+  path: Assets/Starfield Skybox
+  artifactKey: Guid(5522cf0787575384a8115f363a6df310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Starfield Skybox using Guid(5522cf0787575384a8115f363a6df310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299eddd162e8159ed2446cf32d1342b2') in 0.028073 seconds
+  Import took 0.055545 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004961 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.505 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1783 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.9 MB.
+System memory in use after: 92.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2362.
+Total: 9.478300 ms (FindLiveObjects: 0.586900 ms CreateObjectMapping: 0.534500 ms MarkObjects: 8.136300 ms  DeleteObjects: 0.218000 ms)
+
