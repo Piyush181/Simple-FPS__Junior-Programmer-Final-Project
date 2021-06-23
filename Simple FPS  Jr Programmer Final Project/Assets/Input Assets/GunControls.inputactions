@@ -1,0 +1,33 @@
+{
+    "name": "GunControls",
+    "maps": [
+        {
+            "name": "AK 47",
+            "id": "2ddc0eb1-a750-4809-9de6-9bcb6e7da11d",
+            "actions": [
+                {
+                    "name": "Shoot",
+                    "type": "PassThrough",
+                    "id": "a7e4d72c-9d43-4ed6-ace4-1aaee8ee6100",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "418e12a9-3346-4c30-b6a5-93813d8263b5",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

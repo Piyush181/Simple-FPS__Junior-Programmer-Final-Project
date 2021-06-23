@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Gun : MonoBehaviour
 {
@@ -9,18 +10,9 @@ public class Gun : MonoBehaviour
     protected float fireRate { get; private set; } //ENCAPSULATION
     protected float nextTimeToFire { get; private set; } //ENCAPSULATION
     public ParticleSystem muzzleFlash;
+    protected GunControls controls;
 
     protected Camera cam;
-
-    void Update()
-    {
-        if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
-        {
-            muzzleFlash.Play();
-            nextTimeToFire = Time.time + 1f / fireRate;
-            Shoot();
-        }
-    }
 
     protected void Shoot() //ABSTRACTION
     {
@@ -34,15 +26,28 @@ public class Gun : MonoBehaviour
             }
         }
     }
-    protected void Start()
+    protected void Awake()
     {
         SetValues();
         cam = Camera.main;
+        controls = new GunControls();
+        controls.AK47.Shoot.performed += _ => PreShoot();
+        controls.AK47.Shoot.performed += _ => Shoot();
     }
     protected virtual void SetValues() //ABSTRACTION
     {
         damage = 10f;
         range = 100f;
         fireRate = 15f;
+    }
+    protected void OnEnable()
+    {
+        controls.Enable();
+    }
+    protected void PreShoot() //ABSTRACTION
+    {
+        Debug.Log("Shot!");
+        muzzleFlash.Play();
+        nextTimeToFire = Time.time + 1f / fireRate;
     }
 }
