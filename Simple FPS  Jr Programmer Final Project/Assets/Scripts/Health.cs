@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    protected float maxHealth { get; private set; } //ENCAPSULATION
-    protected float currentHealth { get; private set; } //ENCAPSULATION
+    [SerializeField] protected float maxHealth;
+    [SerializeField] public float currentHealth { get; private set; } //ENCAPSULATION
 
-    protected virtual void SetValues() //ABSTRACTION
-    {
-        maxHealth = 100f;
-        currentHealth = maxHealth;
-    }
     public void TakeDamage(float damage) //ABSTRACTION
     {
         currentHealth -= damage;
+    }
+    void SetValues() //ABSTRACTION
+    {
+        currentHealth = maxHealth;
     }
     private void Start()
     {
