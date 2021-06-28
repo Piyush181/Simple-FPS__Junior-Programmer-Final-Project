@@ -13,7 +13,7 @@ public class BoxEnemy : Enemy //INHERITANCE
         base.SetValues();
         msg = "Why did u kille me?";
     }
-    private void Awake()
+    private new void Awake()
     {
         SetValues();
     }

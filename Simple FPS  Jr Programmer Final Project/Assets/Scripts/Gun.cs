@@ -16,6 +16,7 @@ public class Gun : MonoBehaviour
 
     protected void Shoot() //ABSTRACTION
     {
+        Debug.Log("Shot!");
         RaycastHit hitInfo;
         if (Physics.Raycast(cam.transform.position, cam.transform.forward, out hitInfo, range))
         {
@@ -32,7 +33,7 @@ public class Gun : MonoBehaviour
         cam = Camera.main;
         controls = new GunControls();
         controls.AK47.Shoot.performed += _ => PreShoot();
-        controls.AK47.Shoot.performed += _ => Shoot();
+        controls.AK47.Shoot.performed += __ => Shoot();
     }
     protected virtual void SetValues() //ABSTRACTION
     {
