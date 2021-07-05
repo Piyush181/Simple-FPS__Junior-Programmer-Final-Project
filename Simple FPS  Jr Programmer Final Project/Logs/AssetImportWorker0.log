@@ -236,3 +236,27 @@ System memory in use after: 160.9 MB.
 Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2331.
 Total: 5.255900 ms (FindLiveObjects: 0.960400 ms CreateObjectMapping: 0.242100 ms MarkObjects: 3.898600 ms  DeleteObjects: 0.136100 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 911.416441 seconds.
+  path: Assets/Scripts/Gun.cs
+  artifactKey: Guid(743bc2aed77319a4f98cf39b67e70a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gun.cs using Guid(743bc2aed77319a4f98cf39b67e70a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d5dde71e55cc85b45363cbd765b177') in 0.176266 seconds
+  Import took 1.094781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(839caad1abcd2544cae757d8a6159d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(839caad1abcd2544cae757d8a6159d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e4c563347778a3790033154c1152f6') in 0.059947 seconds
+  Import took 0.264971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005237 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(839caad1abcd2544cae757d8a6159d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(839caad1abcd2544cae757d8a6159d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e4c563347778a3790033154c1152f6') in 0.011506 seconds
+  Import took 0.016552 seconds .
+
